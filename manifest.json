@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Auth Copier",
+  "version": "1.0",
+
+  "description": "Will show button to Copy Authorization Header when you call ajax request",
+  "icons": {
+    "48": "icons/auth-48.png"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+	"https://place_all_your_url_here.com/"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
